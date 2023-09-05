@@ -1,0 +1,158 @@
+.navbar{
+    display: flex;
+    background-color: #333;
+    color: white;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+}
+ul li {
+    margin:0 1rem ;
+}
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-info{
+    display: grid;
+    text-align: center;
+    width: 650px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    
+    background: #333;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+.Person {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   justify-content: center;
+    align-items: center;
+
+}
+.Person-items{
+    padding: 2rem;
+    background: #339cff;
+    color: #fff;
+    
+
+}
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #fff; /* เปลี่ยนสีตัวหนังสือเป็นสีขาวให้ตรงกับพื้นหลังของภาพ */
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* เพิ่มพื้นหลังให้เป็นสีขาวโทนอ่อนในห่วงความอ่านง่ายของเนื้อหา */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h4 {
+    margin-left: 1em;
+    color: #007bff;
+  }
+  
+  p {
+    font-style: italic;
+    color: #fff; 
+  }
+  
+  #font12 {
+    font-size: 12px;
+  }
+  
+  dl {
+    margin-left: 1em;
+  }
+  
+  dt {
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  dd {
+    margin-bottom: 1em;
+  }
+  
+  /* Style for the image */
+  #img {
+    border-radius: 50%;
+    border: 3px solid #007bff;
+  }
+  
+  /* Style for links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for buttons */
+  .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL9po391hqa1OPMBbgE8liZw3l1CgZV0NE0GppPN4TJC-ykoG5fSzouL1QOODifa0-tNE&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
